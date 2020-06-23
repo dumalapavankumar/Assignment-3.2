@@ -1,1 +1,10 @@
 # Assignment-3.2
+hour= input("enter hour= ")
+rate= input("enter rate= ")
+try:
+    hours= int(hour)
+    rates=  int(rate)
+    print("hour=",hours)
+    print("rate=",rates)
+except:
+    print("Error, please enter a proper number")  
